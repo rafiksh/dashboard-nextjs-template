@@ -5,9 +5,11 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Dashboard</title>
+        <title>Invoice</title>
       </Head>
-      <main className="flex h-screen">hi</main>
+      <main className="flex h-screen flex-col bg-gradient-to-b from-[#2e026d] to-[#15162c]">
+        invoice
+      </main>
     </>
   );
 };

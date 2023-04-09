@@ -5,9 +5,9 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Dashboard</title>
+        <title>Products</title>
       </Head>
-      <main className="flex h-screen">hi</main>
+      <main className="flex h-screen flex-col">Products</main>
     </>
   );
 };
